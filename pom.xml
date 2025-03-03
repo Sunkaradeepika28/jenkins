@@ -35,7 +35,7 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source><span class="math-inline">\{java\.version\}</source\>
+                    <source><span class="math-inline">\{java\.version\}</source>
 <target\></span>{java.version}</target>
                 </configuration>
             </plugin>
