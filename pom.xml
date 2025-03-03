@@ -35,8 +35,8 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>{java\.version\}</source>
-                     <target>{java.version}</target>
+                    <source>11</source>
+                     <target>11</target>
                 </configuration>
             </plugin>
 
@@ -172,4 +172,19 @@
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
-                <version>4.0.0</version
+                <version>4.0.0</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <scm>
+      <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
+      <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
+      <tag>HEAD</tag>
+      <url>http://github.com/jleetutorial/maven-project</url>
+  m </scm>
+
+  <prerequisites>
+    <maven>3.8.7</maven>
+  </prerequisites>
+
+</project>        
